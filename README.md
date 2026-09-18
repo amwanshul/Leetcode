@@ -22,3 +22,9 @@ For each problem, the aim is to keep:
 4. complexity analysis.
 
 The repository will grow as I work through more problems.
+
+## Daily streak
+
+| Day | Date | Problem | Pattern | Difficulty |
+|---:|---|---|---|---|
+| 1 | 2026-09-19 | 104. Maximum Depth of Binary Tree | DFS / recursion | Easy |
