@@ -16,6 +16,7 @@ A structured repository of **C++ data structures and algorithmic problem solutio
 - **Hashing & Frequency Mapping**: $O(1)$ lookups, grouping, and frequency counters (e.g., Group Anagrams, Contains Duplicate).
 - **Heaps & Priority Queues**: Top-K element tracking with optimal $O(N \log K)$ time complexity.
 - **Tree Traversals**: Depth-First Search (DFS) & Breadth-First Search (BFS) recursion and iterative variants.
+- **Dynamic Programming**: Building a solution from smaller overlapping subproblems and compressing state when only recent values are required (e.g., Climbing Stairs).
 
 ---
 
@@ -25,12 +26,22 @@ A structured repository of **C++ data structures and algorithmic problem solutio
 |---|---|---|---|---|---|
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Sorting + Two Pointers | $O(N^2)$ | $O(1)$ | [`15-3sum/`](./15-3sum) |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Hash Map (Sorted Key / Count) | $O(N \cdot K \log K)$ | $O(N \cdot K)$ | [`49-group-anagrams/`](./49-group-anagrams) |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming / State Compression | $O(N)$ | $O(1)$ | [`0070-climbing-stairs/`](./0070-climbing-stairs) |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Tree DFS / Recursion | $O(N)$ | $O(H)$ | [`0104-maximum-depth-of-binary-tree/`](./0104-maximum-depth-of-binary-tree) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Two Pointers | $O(N)$ | $O(1)$ | [`125-valid-palindrome/`](./125-valid-palindrome) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Hash Set | $O(N)$ | $O(N)$ | [`217-contains-duplicate/`](./217-contains-duplicate) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Frequency Array / Hash Table | $O(N)$ | $O(1)$ | [`0242-valid-anagram/`](./0242-valid-anagram) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Min-Heap / Bucket Sort | $O(N \log K)$ | $O(N)$ | [`347-top-k-frequent-elements/`](./347-top-k-frequent-elements) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | Array Interleaving | $O(N)$ | $O(1)$ | [`1580-shuffle-the-array/`](./1580-shuffle-the-array) |
+
+---
+
+## 🔥 Daily Streak
+
+| Day | Date | Problem | Pattern |
+|---:|---|---|---|
+| 1 | 2026-09-18 | 104. Maximum Depth of Binary Tree | Tree DFS |
+| 2 | 2026-09-19 | 70. Climbing Stairs | Dynamic Programming |
 
 ---
 
