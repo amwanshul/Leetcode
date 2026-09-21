@@ -34,6 +34,7 @@ A structured repository of **C++ data structures and algorithmic problem solutio
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Frequency Array / Hash Table | O(N) | O(1) | [`0242-valid-anagram/`](./0242-valid-anagram) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Min-Heap / Bucket Sort | O(N log K) | O(N) | [`347-top-k-frequent-elements/`](./347-top-k-frequent-elements) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | Array Interleaving | O(N) | O(1) | [`1580-shuffle-the-array/`](./1580-shuffle-the-array) |
+| 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Graph DFS / Adjacency List | O(N + E) | O(N + E) | [`1971-find-if-path-exists-in-graph/`](./1971-find-if-path-exists-in-graph) |
 
 ---
 
@@ -44,6 +45,7 @@ A structured repository of **C++ data structures and algorithmic problem solutio
 | 1 | 2026-09-18 | 104. Maximum Depth of Binary Tree | Tree DFS |
 | 2 | 2026-09-19 | 70. Climbing Stairs | Dynamic Programming |
 | 3 | 2026-09-20 | 102. Binary Tree Level Order Traversal | Tree BFS |
+| 4 | 2026-09-21 | 1971. Find if Path Exists in Graph | Graph DFS |
 
 ---
 
