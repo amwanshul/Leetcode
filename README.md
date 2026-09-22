@@ -17,6 +17,7 @@ A structured repository of **C++ data structures and algorithmic problem solutio
 - **Heaps & Priority Queues**: Top-K element tracking with optimal O(N log K) time complexity.
 - **Tree Traversals**: Depth-First Search (DFS) & Breadth-First Search (BFS) using recursion, queues, and iterative traversal.
 - **Dynamic Programming**: Building a solution from smaller overlapping subproblems and compressing state when only recent values are required (e.g., Climbing Stairs).
+- **Greedy / Running State**: Maintaining the best state seen so far for one-pass optimization problems (e.g., Best Time to Buy and Sell Stock).
 
 ---
 
@@ -29,6 +30,7 @@ A structured repository of **C++ data structures and algorithmic problem solutio
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming / State Compression | O(N) | O(1) | [`0070-climbing-stairs/`](./0070-climbing-stairs) |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Breadth-First Search / Queue | O(N) | O(W) | [`0102-binary-tree-level-order-traversal/`](./0102-binary-tree-level-order-traversal) |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Tree DFS / Recursion | O(N) | O(H) | [`0104-maximum-depth-of-binary-tree/`](./0104-maximum-depth-of-binary-tree) |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Greedy / Running Minimum | O(N) | O(1) | [`0121-best-time-to-buy-and-sell-stock/`](./0121-best-time-to-buy-and-sell-stock) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Two Pointers | O(N) | O(1) | [`125-valid-palindrome/`](./125-valid-palindrome) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Hash Set | O(N) | O(N) | [`217-contains-duplicate/`](./217-contains-duplicate) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Frequency Array / Hash Table | O(N) | O(1) | [`0242-valid-anagram/`](./0242-valid-anagram) |
@@ -46,6 +48,7 @@ A structured repository of **C++ data structures and algorithmic problem solutio
 | 2 | 2026-09-19 | 70. Climbing Stairs | Dynamic Programming |
 | 3 | 2026-09-20 | 102. Binary Tree Level Order Traversal | Tree BFS |
 | 4 | 2026-09-21 | 1971. Find if Path Exists in Graph | Graph DFS |
+| 5 | 2026-09-22 | 121. Best Time to Buy and Sell Stock | Greedy / Running Minimum |
 
 ---
 
