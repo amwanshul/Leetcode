@@ -12,7 +12,7 @@ A structured repository of **C++ data structures and algorithmic problem solutio
 
 ## 🧠 Core Patterns Explored
 
-- **Two Pointers / Scanning**: Reducing search space through sorted properties (e.g., 3Sum, Valid Palindrome).
+- **Two Pointers / Scanning**: Reducing search space through sorted properties and symmetric scans (e.g., 3Sum, Valid Palindrome, Reverse String).
 - **Hashing & Frequency Mapping**: O(1) lookups, grouping, and frequency counters (e.g., Two Sum, Group Anagrams, Contains Duplicate).
 - **Heaps & Priority Queues**: Top-K element tracking with optimal O(N log K) time complexity.
 - **Tree Traversals**: Depth-First Search (DFS) & Breadth-First Search (BFS) using recursion, queues, and iterative traversal.
@@ -35,6 +35,7 @@ A structured repository of **C++ data structures and algorithmic problem solutio
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Two Pointers | O(N) | O(1) | 125-valid-palindrome/ |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Hash Set | O(N) | O(N) | 217-contains-duplicate/ |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Frequency Array / Hash Table | O(N) | O(1) | 0242-valid-anagram/ |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Two Pointers / In-Place Swap | O(N) | O(1) | 0344-reverse-string/ |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Min-Heap / Bucket Sort | O(N log K) | O(N) | 347-top-k-frequent-elements/ |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | Array Interleaving | O(N) | O(1) | 1580-shuffle-the-array/ |
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Graph DFS / Adjacency List | O(N + E) | O(N + E) | 1971-find-if-path-exists-in-graph/ |
@@ -51,6 +52,7 @@ A structured repository of **C++ data structures and algorithmic problem solutio
 | 4 | 2026-09-21 | 1971. Find if Path Exists in Graph | Graph DFS |
 | 5 | 2026-09-22 | 121. Best Time to Buy and Sell Stock | Greedy / Running Minimum |
 | 6 | 2026-09-26 | 1. Two Sum | Hash Map |
+| 7 | 2026-09-30 | 344. Reverse String | Two Pointers |
 
 ---
 
@@ -58,7 +60,7 @@ A structured repository of **C++ data structures and algorithmic problem solutio
 
 Compile the solution with g++ or clang++ using C++17 or newer.
 
-Example: g++ -std=c++17 -O2 0001-two-sum/two-sum.cpp -o solution
+Example: g++ -std=c++17 -O2 0344-reverse-string/reverse-string.cpp -o solution
 
 ---
 
